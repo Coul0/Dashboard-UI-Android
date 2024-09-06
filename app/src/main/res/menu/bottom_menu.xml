@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<!--    android:icon="@drawable/all_apps"-->
+
+    <item
+        android:id="@+id/accueil"
+        android:title="Accueil"
+        android:icon="@drawable/accueil"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/favoris"
+        android:icon="@drawable/favoris"
+        android:title="Favoris"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/recherche"
+        android:title="Recherche"
+        android:icon="@drawable/recherche"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+</menu>
